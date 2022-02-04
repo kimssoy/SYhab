@@ -47,7 +47,7 @@ footer .license{
 .fixed_menu li{
     width:50px;
     height:50px;
-    background-color:#f5864e;
+    background-color:rgba(0,0,0,0.5);
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
 }
