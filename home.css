@@ -1,6 +1,6 @@
+html{width:1920px; margin:auto;}
 body{
-    height:auto;
-
+    width:100%;
 }
 header{
     width:100%;
@@ -91,8 +91,10 @@ header>.wrap{
 #best{
     width:100%;
     height:1400px;
+    margin:auto;
     background:url("./image/bg_03.png") center;
     background-size:cover;
+    position:relative;
 }
 #best>.title{
     max-width:1180px;
@@ -128,9 +130,8 @@ header>.wrap{
     position:relative;
 }
 .best_sellers>.box_2{
-    width:100%;
+    max-width:1180px;
     margin:auto;
-    position:relative;
 }
 .best_sellers>.box_2 a{
     text-align:center;
@@ -138,7 +139,9 @@ header>.wrap{
 .best_sellers>.box_2>.best_2{
     width:300px;
     margin-right:124px;
+    margin-left:100px;
     float:left;
+    position:relative;
 }
 .best_sellers>.box_2>.more{
     width:105px;
@@ -150,6 +153,7 @@ header>.wrap{
 .best_sellers>.box_2>.best_3{
     width:300px;
     float:left;
+    position:relative;
 }
 .best_sellers>.box_3{
     width:300px;
@@ -167,7 +171,7 @@ header>.wrap{
     height:300px;
     background-color:rgba(0,0,0,0.5);
     position:absolute;
-    top:0%; left:0%;
+    top:0; left:0;
     border-radius:50%;
     opacity:0;
     visibility:hidden;
@@ -178,6 +182,7 @@ header>.wrap{
 .box_1 .overlay_1{
     margin-top:59px;
 }
+
 .box_1 .overlay_1>p{
     color:#fff;
     letter-spacing:1px;
@@ -195,9 +200,6 @@ header>.wrap{
 .best_2:hover>.overlay_2{
     opacity:1;
     visibility:visible;
-}
-.best_3 .overlay_3{
-    transform: translateX(227%);
 }
 .best_3 .overlay_3>p{
     color:#fff;
@@ -238,7 +240,6 @@ header>.wrap{
     height:499px;
     padding-top:70px;
     margin:auto;
-    
 }
 
 #about{
