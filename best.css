@@ -1,5 +1,7 @@
-body{
+html{
+    width:1920px;
     height:auto;
+    margin:auto;
 }
 
 #best{
@@ -11,6 +13,7 @@ body{
 }
 #best>ul{
     max-width:1180px;
+    margin:auto;
     height:402px;
 }
 #best li{

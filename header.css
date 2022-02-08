@@ -1,6 +1,7 @@
-body{
+html{
+    width:1920px;
     height:3703px;
-
+    margin:auto;
 }
 header{
     width:100%;
