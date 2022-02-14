@@ -5,7 +5,7 @@ header{
     width:100%;
     min-width:1180px;
     height:500px;
-    background:url("image/sub_bg.png") center;
+    background:url("../image/sub_bg.png") center;
 }
 
 header>.wrap{
