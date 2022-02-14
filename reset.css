@@ -6,7 +6,7 @@ a{text-decoration:none; color:inherit;}
 input,textarea,button{
     outline:0;
 }
-
+html{width:1920px; margin:auto;}
 body{
     font-family:"Noto Sans KR";
     font-size:15px;
