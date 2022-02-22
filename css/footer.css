@@ -41,8 +41,8 @@ footer .license{
 .fixed_menu{
     position:fixed;
     bottom:90px;
-    left:47.6%;
-    margin-left:590px;    
+    left:50%;
+    margin-left:598px;    
 }
 .fixed_menu li{
     width:50px;
